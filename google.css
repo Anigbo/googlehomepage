@@ -1,0 +1,67 @@
+body, p {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  margin-left: auto;
+  padding: 2em;
+}
+
+ a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+nav img {
+  height: 20px;
+}
+.icon {
+  cursor: pointer;
+}
+main {
+  width: 50%;
+  margin: 6.9em auto;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  padding: 1em;
+  border-radius: 50px;
+  border: 1px solid gray;
+}
+.btn-container {
+  margin-top: 1em;
+}
+
+.btn-container button {
+  padding: 1em;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: lightgray;
+}
+.footer-top {
+  padding: 1em;
+}
+.footer-bottom {
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.left a {
+  margin-right: 1em;
+}
+
+.right a {
+  margin-left: 1em;
+}
